@@ -14,4 +14,4 @@ PyExcel | pip install openpyxl
 2. Run program main.py untuk melihat hasil
 
 Informasi lainnya:
-1. Jika ingin mengganti gambar, ubah nama pada `image_path` sesuai dengan nama file gambar (dengan format ekstensinya)
+1. Jika ingin mengganti gambar, ubah nama pada `image_path` pada main.py sesuai dengan nama file gambar (dengan format ekstensinya)
