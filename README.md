@@ -16,3 +16,5 @@ PyExcel | pip install openpyxl
 Informasi lainnya:
 1. Jika ingin mengganti gambar, ubah nama pada `image_path` pada main.py sesuai dengan nama file gambar (dengan format ekstensinya)
 2. Untuk mengganti threshold, ubah nilai pada file main.py pada bagian Status slot parkir bagian `if count < x:` sesuai yang diinginkan. Threshold tersebut merupakan nilai piksel yang dideteksi. Jika lebih kecil maka slot parkir dianggap kosong, jika lebih besar dianggap terisi
+3. PixelThresh.py digunakan untuk melihat jumlah pixel untuk mendapatkan angka threshold
+4. File PosList berisi koordinat dari kotak - kotak yang telah di atur. Untuk membuat file PosList yang baru untuk menggunakan gambar lain, ubah nama PosList pada PemilihParkir.py dan main.py menjadi nama lain, contoh PosList1
